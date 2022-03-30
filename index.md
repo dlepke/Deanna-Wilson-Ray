@@ -58,4 +58,10 @@ Throughout these instructions, we will use special symbols to alert you to impor
 ![](/assets/images/success.png) This symbol means a job well done. Congratulations!
 
 ## Conclusion
-We hope this guide will help you establish a simpler and more secure system for working with Git and GitHub. SSH might seem complex, but setting it up on your local device will result in a smoother workflow!
+We felt that GitHub SSH was a safer, more user friendly alternative to using GitHub tokens, and thus endeavered to create this document to confer to you our knowledge of GitHub SSH.
+
+Though we are by no means experts in the topic, we hope that our efforts prove useful to anyone who comes across these instructions looking for insight into the inner workings and nuances of GitHub SSH.
+
+Regardless of what knowledge you may have obtained from these pages, our writing of this has also provided to us the opportunity to practice creating clear and precise user instructions for our target audience. This assignment also helped us learn to better work with our peers, strengthening our teamwork and communication skills. And as such, we would like to take this opportunity to thank you for being here to witness the fruits of our labour.
+
+We hope that this guide is able to assist you in setting up and working with SSH. While SSH may appear complex, it is actually a much simpler system once you get to know it, and its added security measures will ultimately result in a much smoother workflow experience with both Git and GitHub.
