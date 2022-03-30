@@ -36,4 +36,9 @@ Note: We can include basic CLI commands here for mac/windows users
 
 ### Notes and Warning Messages
 
+## Conclusion
 
+####
+Back to Top
+
+Copyright 2022 - 3/4s of Penguin Design Studios
