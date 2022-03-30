@@ -46,7 +46,7 @@ The main sections of the documentation are as follows:
 ### Why Use SSH?
 These days, passwords can be easy to forget, hard to remember, and require constant updates if and when a data breach occurs. To avoid the issues a compromised password can cause, Github users are able to create what are known as "SSH key pairs" that provide a secure, reliable way to authenticate a user's credentials.
 
-While SSH key pairs are more time intensive then regular username/password combinations, the end result is an SSH key that is more secure than a password and less vulnerable to compromise. This guide should make the process simple and get you back to pushing commits in no time.
+While setting up SSH key pairs are more time intensive then regular username/password combinations, the end result is an SSH key that is more secure than a password and less vulnerable to compromise. This guide aims make the process simple, and get you back to contributing to projects on Github in no time.
 
 Users that would like to learn more about SSH key pairs can [click here](https://www.thorntech.com/passwords-vs-ssh/).
 
