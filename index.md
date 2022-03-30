@@ -43,10 +43,10 @@ The main sections of the documentation are as follows:
 * Cloning A Repo From The Command Line
 * Pushing Changes To GitHub
 
-### Typographical Conventions
+## Typographical Conventions
 Note: We can include basic CLI commands here for maac/windows users
 
-### Notes and Warning Messages
+## Notes and Warning Messages
 Throughout these instructions, we will use special symbols to alert you to important relevant information or aspects to be aware of.
 
 ![](/assets/images/danger.png) This symbol indicates a dangerous action that could lead to a crash or other major issue.
@@ -58,3 +58,4 @@ Throughout these instructions, we will use special symbols to alert you to impor
 ![](/assets/images/success.png) This symbol means a job well done. Congratulations!
 
 ## Conclusion
+We hope this guide will help you establish a simpler and more secure system for working with Git and GitHub. SSH might seem complex, but setting it up on your local device will result in a smoother workflow!
