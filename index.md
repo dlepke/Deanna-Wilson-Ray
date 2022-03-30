@@ -29,8 +29,8 @@ This guide is for users that have:
 
 ### Software Requirements
 Prior to using this guide, please make sure that you have the newest version of Git installed on your device. If you aren't sure, you can check which version you have by entering "git --version" (without the double quotes) on your machine's command-line interface. If you need to do a fresh install of Git, you can find the latest version here:
-* [For Mac users] (https://git-scm.com/download/mac)
-* [For Windows users] (https://git-scm.com/download/win)
+* [For Mac users](https://git-scm.com/download/mac)
+* [For Windows users](https://git-scm.com/download/win)
 
 ### Procedures Overview
 
