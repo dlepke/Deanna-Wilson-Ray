@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Generate an SSH key
-parent: Utilities
+parent: instructions
 nav_order: 1
 ---
 
