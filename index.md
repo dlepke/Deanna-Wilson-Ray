@@ -13,13 +13,18 @@ Greetings, User!
 The purpose of this guide is to assist you with setting up an SSH key with your Github account so that you can easily push your work to the repository. No need for the hassle of tokens that may expire or be forgotten!
 
 ### Table of Contents
+* Intended Users
+    * Prerequisite Knowledge
+    * Software Requirements
+    * Procedures Overview
+* Why Use SSH
+* Typographical Conventions
+* Conclusion
 
 ## Intended Users
 This guide is for:
 * Beginner or Intermediate level coders with a basic knowledge of their computer's command-line interface.
-* Individuals with little to no knowledge of what "SSH" is and how to set one up.
-
-## Unintended Users
+* Individuals with little to no knowledge of what "SSH" is and how to set it up on a local device.
 
 ### Prerequisite Knowledge
 This guide is for users that have:
@@ -33,11 +38,15 @@ Prior to using this guide, please make sure that you have the newest version of 
 * [For Windows users](https://git-scm.com/download/win)
 
 ### Procedures Overview
-
+The main sections of the documentation are as follows:
+* Setting Up GitHub SSH Key
+* Cloning A Repo From The Command Line
+* Pushing Changes To GitHub
 
 ### Typographical Conventions
 Note: We can include basic CLI commands here for maac/windows users
 
 ### Notes and Warning Messages
+!!! danger Testing danger
 
 ## Conclusion
