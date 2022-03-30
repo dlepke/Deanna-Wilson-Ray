@@ -2,7 +2,7 @@
 layout: default
 title: Generate an SSH key
 parent: instructions
-nav_order: 1
+nav_order: 3
 ---
 
 [//]: # (---)
