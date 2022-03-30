@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Glossary
-nav_order: 100
+nav_order: 5
 ---

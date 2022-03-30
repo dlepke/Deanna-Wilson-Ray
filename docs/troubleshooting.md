@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Troubleshooting Guide
-nav_order: 99
+nav_order: 4
 ---
