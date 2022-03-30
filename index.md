@@ -55,8 +55,6 @@ Throughout these instructions, we will use special symbols to alert you to impor
 
 ![](/assets/images/info.png) This symbol is to alert you to additional information or potentially useful tips that may be of use or interest.
 
-![](/assets/images/success.png) This symbol means a job well done. Congradulations!
-
-!!! danger Testing danger
+![](/assets/images/success.png) This symbol means a job well done. Congratulations!
 
 ## Conclusion
