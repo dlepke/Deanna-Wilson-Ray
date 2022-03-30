@@ -19,6 +19,8 @@ This guide is for:
 * Beginner or Intermediate level coders with a basic knowledge of their computer's command-line interface.
 * Individuals with little to no knowledge of what "SSH" is and how to set one up.
 
+## Unintended Users
+
 ### Prerequisite Knowledge
 This guide is for users that have:
 * Git already set up on their workstations
@@ -26,7 +28,9 @@ This guide is for users that have:
 * a basic understanding of the command line interface for the Git version control tool
 
 ### Software Requirements
-Prior to using this guide, please make sure that you have the newest version of Git installed on your device. If you aren't sure, you can check which version you have by INSERT CLI INSTRUCTION. If you need to do a fresh install of Git, you can find the latest version here: INSERT LINK TO GIT WEBSITE
+Prior to using this guide, please make sure that you have the newest version of Git installed on your device. If you aren't sure, you can check which version you have by entering "git --version" (without the double quotes) on your machine's command-line interface. If you need to do a fresh install of Git, you can find the latest version here:
+* [For Mac users] (https://git-scm.com/download/mac)
+* [For Windows users] (https://git-scm.com/download/win)
 
 ### Procedures Overview
 
