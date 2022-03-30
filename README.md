@@ -9,6 +9,16 @@
     <br><br><br>
 </p>
 
+### List of Resources Used in This Assignment
+* Google icons: https://fonts.google.com/icons
+* References for layout, content:
+    * https://dl90.github.io/linux-basics/
+    * https://github.com/megankuo/Express-User-Documentation/
+* Cloned repo found at: https://github.com/just-the-docs/just-the-docs
+
+
+
+
 ![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
 
 ## Installation
