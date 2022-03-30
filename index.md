@@ -8,7 +8,7 @@ permalink: /
 
 # Introduction
 {: .fs-9 }
-Greetings, User! test test test
+Greetings, User!
 
 The purpose of this guide is to assist you with setting up an SSH key with your Github account so that you can easily push your work to the repository. No need for the hassle of tokens that may expire or be forgotten!
 
