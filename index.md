@@ -32,13 +32,8 @@ Prior to using this guide, please make sure that you have the newest version of 
 
 
 ### Typographical Conventions
-Note: We can include basic CLI commands here for mac/windows users
+Note: We can include basic CLI commands here for maac/windows users
 
 ### Notes and Warning Messages
 
 ## Conclusion
-
-####
-Back to Top
-
-Copyright 2022 - 3/4s of Penguin Design Studios
