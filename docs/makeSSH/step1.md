@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Buttons
+title: Step 1: Generate an SSH key
+parent: Make SSH
 nav_order: 1
 ---
 
