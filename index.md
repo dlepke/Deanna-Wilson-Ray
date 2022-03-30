@@ -64,7 +64,7 @@ Throughout these instructions, we will use special symbols to alert you to impor
 | ![](/assets/images/success.png) | **Success:** This symbol means a job well done. |Congratulations!
 
 ## Conclusion
-We felt that GitHub SSH was a safer, more user friendly alternative to using GitHub tokens, and thus endeavered to create this document to confer to you our knowledge of GitHub SSH.
+We felt that GitHub SSH was a safer, more user friendly alternative to using GitHub tokens, and thus endeavoured to create this document to confer to you our knowledge of GitHub SSH.
 
 Though we are by no means experts in the topic, we hope that our efforts prove useful to anyone who comes across these instructions looking for insight into the inner workings and nuances of GitHub SSH.
 
