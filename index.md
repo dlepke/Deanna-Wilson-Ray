@@ -43,19 +43,25 @@ The main sections of the documentation are as follows:
 * Cloning A Repo From The Command Line
 * Pushing Changes To GitHub
 
+### Why Use SSH?
+These days, passwords can be easy to forget, hard to remember, and require constant updates if and when a data breach occurs. To avoid the issues a compromised password can cause, Github users are able to create what are known as "SSH key pairs" that provide a secure, reliable way to authenticate a user's credentials.
+
+While SSH key pairs are more time intensive then regular username/password combinations, the end result is an SSH key that is more secure than a password and less vulnerable to compromise. This guide should make the process simple and get you back to pushing commits in no time.
+
+Users that would like to learn more about SSH key pairs can [click here](https://www.thorntech.com/passwords-vs-ssh/).
+
 ## Typographical Conventions
 Note: We can include basic CLI commands here for maac/windows users
 
 ## Notes and Warning Messages
 Throughout these instructions, we will use special symbols to alert you to important relevant information or aspects to be aware of.
 
-![](/assets/images/danger.png) This symbol indicates a dangerous action that could lead to a crash or other major issue.
-
-![](/assets/images/warning.png) This symbol denotes a warning. We highly recommend that you read and keep this in mind when proceeding.
-
-![](/assets/images/info.png) This symbol is to alert you to additional information or potentially useful tips that may be of use or interest.
-
-![](/assets/images/success.png) This symbol means a job well done. Congratulations!
+| Symbol | Description|  
+|----------|-------------|
+![](/assets/images/danger.png) | **Danger:** This symbol indicates a dangerous action that could lead to a crash or other major issue.|
+|![](/assets/images/warning.png) | **Warning:** This symbol denotes a warning. We highly recommend that you read and keep this in mind when proceeding |
+| ![](/assets/images/info.png) | **Info:** This symbol is to alert you to additional information or potentially useful tips that may be of use or interest. |
+| ![](/assets/images/success.png) | **Success:** This symbol means a job well done. |Congratulations!
 
 ## Conclusion
 We felt that GitHub SSH was a safer, more user friendly alternative to using GitHub tokens, and thus endeavered to create this document to confer to you our knowledge of GitHub SSH.
