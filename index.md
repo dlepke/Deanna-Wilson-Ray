@@ -47,7 +47,6 @@ The main sections of the documentation are as follows:
 Note: We can include basic CLI commands here for maac/windows users
 
 ### Notes and Warning Messages
-<<<<<<< HEAD
 Throughout these instructions, we will use special symbols to alert you to important relevant information or aspects to be aware of.
 
 ![](/assets/images/danger.png) This symbol indicates a dangerous action that could lead to a crash or other major issue.
@@ -57,9 +56,5 @@ Throughout these instructions, we will use special symbols to alert you to impor
 ![](/assets/images/info.png) This symbol is to alert you to additional information or potentially useful tips that may be of use or interest.
 
 ![](/assets/images/success.png) This symbol means a job well done. Congradulations!
-
-=======
-!!! danger Testing danger
->>>>>>> 20a705a2ad207fc597de7aacf2bff690d458c7c4
 
 ## Conclusion
