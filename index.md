@@ -39,5 +39,15 @@ Prior to using this guide, please make sure that you have the newest version of 
 Note: We can include basic CLI commands here for maac/windows users
 
 ### Notes and Warning Messages
+Throughout these instructions, we will use special symbols to alert you to important relevant information or aspects to be aware of.
+
+![](/assets/images/danger.png) This symbol indicates a dangerous action that could lead to a crash or other major issue.
+
+![](/assets/images/warning.png) This symbol denotes a warning. We highly recommend that you read and keep this in mind when proceeding.
+
+![](/assets/images/info.png) This symbol is to alert you to additional information or potentially useful tips that may be of use or interest.
+
+![](/assets/images/success.png) This symbol means a job well done. Congradulations!
+
 
 ## Conclusion
