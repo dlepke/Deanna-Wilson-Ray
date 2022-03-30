@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Add a new SSH key
-parent: Instructions
+parent: Setting Up SSH
 nav_order: 3
 ---

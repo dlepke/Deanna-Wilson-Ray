@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Check for an SSH key
-parent: Instructions
+parent: Setting Up SSH
 nav_order: 1
 ---
