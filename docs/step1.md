@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Buttons
-parent: This is a test!
 nav_order: 1
 ---
 
