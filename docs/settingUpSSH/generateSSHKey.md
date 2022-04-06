@@ -20,9 +20,13 @@ On your Mac device, open the Terminal app.
 
 ## 2. Generate a new SSH key:  
 
+<!-- ran into "bits has bad value" -->
+
 Enter the following into your Terminal:
 
-`ssh-keygen -t rsa -b ed25519 -C "your_email@example.com"`  
+`ssh-keygen -t ed25519 -C "your_email@example.com"`  
+
+(this screenshot needs updating)
 
 |  |  |  
 |-------|------|

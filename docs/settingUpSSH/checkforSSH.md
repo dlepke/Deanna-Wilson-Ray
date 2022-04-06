@@ -17,11 +17,13 @@ Before beginning this guide, you should first check if your device already has a
 
 
 ## Step 1: Open Terminal
-On your Mac device, open the Terminal app. It should look like the following, but with your Mac username:
+
+On your Mac device, open the Terminal app. It should look something like the following:
 
 ![](../../assets/images/Terminal-start.png)
 
 You should start in the root directory.
+
 
 ## Step 2: Check for existing keys
 
@@ -30,6 +32,7 @@ In Terminal, enter the following command:
 `$ ls -al ~/.ssh`
 
 ![](../../assets/images/Terminal-enter-command-check-ssh.png)
+
 
 ## Step 3: Check for any of the following file names
 
@@ -47,7 +50,6 @@ These files would appear like the following:
 |  |  |  
 |-------|------|
 | ![](../../assets/images/info.png) | If you receive an error that ~/.ssh doesn't exist, then you do not have an existing SSH key pair. |  
-
 
 
 ## Next: [Generate a new SSH key](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/)
