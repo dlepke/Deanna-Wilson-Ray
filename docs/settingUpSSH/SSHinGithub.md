@@ -33,4 +33,4 @@ Now that you have generated an SSH key and linked it to your device, it is time 
 
 7 ) Clickin the "Add SSH Key" button will take you to a page prompting you to authenticate your credentials by entering your password again. Do so, and you should be taken back to the "SSH and GPG Keys" page from step 3b. However, this time, you should be able to see your newly added SSH key in the field under "SSH Keys", like the picture below. ![](../../assets/images/key_added_successfully.png)
 
-Congratulations! You have now added an SSH key to your GitHub account, and are ready to start [cloning repositories with it](../../docs/sshandgit/forkandclone).
+Congratulations! You have now added an SSH key to your GitHub account, and are ready to start [cloning repositories with it](https://dlepke.github.io/Deanna-Wilson-Ray/docs/sshandgit/forkandclone/).
