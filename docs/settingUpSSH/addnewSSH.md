@@ -7,7 +7,7 @@ nav_order: 3
 
 # Add your SSH Key to your SSH Agent
 
-Before we get to the good stuff, let's do a quick check of what we've done so far.
+First, let's do a quick check of what we've done so far.
 
 ## Quick Status Check
 1. Have you checked for existing SSH keys on your device?
@@ -101,6 +101,8 @@ Now that your SSH-Agent will know what to do with your new SSH Key, we can forma
 
 Return to your terminal and enter in the following command:
 
-`ssh-add -K ~/.ssh/id_ed25519`
+`ssh-add --apple-use-keychain ~/.ssh/id_ed25519`
+
+*Note: If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.*
 
 Congratulations! You have now generated and added a new SSH key to your device. You can now add it to your Github Account.
