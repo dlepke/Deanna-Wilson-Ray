@@ -7,7 +7,7 @@ nav_order: 3
 
 # Add your SSH Key to your SSH Agent
 
-Before we get to the good stuff, let's do a quick check of what we've done so far.
+First, let's do a quick check of what we've done so far.
 
 ## Quick Status Check
 1. Have you checked for existing SSH keys on your device?
