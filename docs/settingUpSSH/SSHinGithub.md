@@ -51,4 +51,4 @@ Now that you have generated an SSH key and linked it to your device, it is time 
 
 ![](../../assets/images/key_added_successfully.png)
 
-Congratulations! You have now added an SSH key to your GitHub account, and are ready to start [cloning repositories with it](https://dlepke.github.io/Deanna-Wilson-Ray/docs/sshandgit/forkandclone/).
+Congratulations! You have now added an SSH key to your GitHub account, and are ready to start [cloning repositories with it](https://dlepke.github.io/Deanna-Wilson-Ray/docs/UsingSSHWithGit/forkandclone/).
