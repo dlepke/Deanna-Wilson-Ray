@@ -58,7 +58,18 @@ To edit your config file, we'll first need to open it. You can use your preferre
 
 `nano ~/.ssh/config`
 
-This will open your command-line editor and allow you to make changes directly through the terminal window. A guide to nano is beyond the scope of these instructions, but a helpful guide can be found [here](https://www.hostinger.com/tutorials/how-to-install-and-use-nano-text-editor).
+This will open your command-line editor and allow you to make changes directly through the terminal window. If you open a brand new config file, you should see something like this:
+
+![](../../assets/images/blankNanoImage.png)
+
+Here, you can type notes as regular, but note that, just like your terminal, your only way of interacting with nano is through your keyboard (no cursors or clicking, here!).
+
+A few important keyboard shortcuts to keep in mind:
+
+|On-Screen Key Shortcut|keys|What it does|
+|-----|-----|-----|
+| ^X | control + "X" key | Pressing these keys allow you to quit the program. You will be prompted to save any progress upon doing so.|
+| ^G | control + "G" key | This will take you to documentation that further outlines nano's features and uses |
 
 ### Step 4b: Edit your config file
 Add the following text to your config file:
@@ -72,8 +83,18 @@ Host *
 
 *Note: If you opted not to use a passphrase when generating your SSH key, omit the 'UseKeychain' line.*
 
+If you are using nano, you can copy and and paste this text into your config file with command+C and command+V, respectively.
+
 ### Step 4c: Save and close your config file
 Now that the necessary changes have been made, save and close your config file.
+
+In Nano, press the control + 'X' keys begin the exit process. Upon doing so, you should see the following prompt:
+
+![](../../assets/images/saveNanoChanges.png)
+
+Press the 'Y' key on your keyboard too accept your changes. Nano will then ask you to confirm which file you wish to write the changes in to. Press the "Enter" key.
+
+Congratulations! You have just used nano to edit and save a text file. This barely scratched the surface of Nano. If you want a more indepth, beginner friendly introduction you can click [here](https://www.hostinger.com/tutorials/how-to-install-and-use-nano-text-editor).
 
 ## Step 5: Add your SSH private key to the SSH-Agent
 Now that your SSH-Agent will know what to do with your new SSH Key, we can formally add it to your agent.
