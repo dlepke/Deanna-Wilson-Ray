@@ -10,11 +10,11 @@ nav_order: 3
 First, let's do a quick check of what we've done so far.
 
 ## Quick Status Check
-1. Have you checked for existing SSH keys on your device?
-2. Have you generated an SSH key on your device?
-3. Do you know where your SSH key is stored?
+1. [Have you checked for existing SSH keys on your device?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/checkforSSH/)
+2. [Have you generated an SSH key on your device?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/)
+3. [Do you know where your SSH key is stored?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/#3-select-a-file-to-save-your-new-ssh-key-in)
 
-If you answered 'no' to either of those questions, please go back to the [introduction](https://dlepke.github.io/Deanna-Wilson-Ray/) to get familiar with what you'll need and to make sure you start off on the right foot.
+If you aren't sure what any of this means, please go back to the [introduction](https://dlepke.github.io/Deanna-Wilson-Ray/) to get familiar with what you'll need and to make sure you start off on the right foot.
 
 This guide assumes that your SSH keys are stored in the default location on your mac. If they are stored elsewhere, adjust any commands that relate to their location accordingly.
 
