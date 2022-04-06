@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to Git push with SSH
-parent: SSH and Git
+parent: Using SSH With Git
 nav_order: 2
 ---
 
