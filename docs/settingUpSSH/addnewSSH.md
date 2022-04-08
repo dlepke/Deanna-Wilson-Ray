@@ -10,11 +10,11 @@ nav_order: 3
 First, let's do a quick check of what we've done so far.
 
 ## Quick Status Check
-1. Have you checked for existing SSH keys on your device?
-2. Have you generated an SSH key on your device?
-3. Do you know where your SSH key is stored?
+1. [Have you checked for existing SSH keys on your device?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/checkforSSH/)
+2. [Have you generated an SSH key on your device?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/)
+3. [Do you know where your SSH key is stored?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/#3-select-a-file-to-save-your-new-ssh-key-in)
 
-If you answered 'no' to either of those questions, please go back to the [introduction](https://dlepke.github.io/Deanna-Wilson-Ray/) to get familiar with what you'll need and to make sure you start off on the right foot.
+If you aren't sure what any of this means, please go back to the [introduction](https://dlepke.github.io/Deanna-Wilson-Ray/) to get familiar with what you'll need and to make sure you start off on the right foot.
 
 This guide assumes that your SSH keys are stored in the default location on your mac. If they are stored elsewhere, adjust any commands that relate to their location accordingly.
 
@@ -39,12 +39,20 @@ Check if you already have a config file on your computer. Enter the following co
 
 `open ~/.ssh/config`
 
+|  |  |
+|-------|------|
+| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
+
 If you receive an error along the lines of "The file does not exist", move on to step 3. If it exists, please refer to step 4.
 
 ## Step 3: Make A Config File
 Make a new config file in your default ssh location. Enter the following command on to your terminal:
 
 `touch ~/.ssh/config`
+
+|  |  |
+|-------|------|
+| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
 
 This will create a new config file in your ssh directory. Now, if you enter `ls -al ~/.ssh` you should see your brand new config file in the directory.
 
@@ -57,6 +65,10 @@ In doing so, we'll be telling your SSH-agent the details of your private keys to
 To edit your config file, we'll first need to open it. You can use your preferred text editor to do so, or enter the following command into your terminal:
 
 `nano ~/.ssh/config`
+
+|  |  |
+|-------|------|
+| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
 
 This will open your command-line editor and allow you to make changes directly through the terminal window. If you open a brand new config file, you should see something like this:
 
@@ -102,6 +114,10 @@ Now that your SSH-Agent will know what to do with your new SSH Key, we can forma
 Return to your terminal and enter in the following command:
 
 `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`
+
+|  |  |
+|-------|------|
+| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
 
 *Note: If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.*
 
