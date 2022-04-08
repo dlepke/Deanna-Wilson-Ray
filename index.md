@@ -51,7 +51,7 @@ While setting up an SSH key pair is more time intensive then regular username/pa
 If you would like to learn more about SSH key pairs can [click here](https://www.thorntech.com/passwords-vs-ssh/).
 
 ## Typographical Conventions {#Typographical-Conventions}
-Note: We can include basic CLI commands here for maac/windows users
+Note: We can include basic command-line interface commands here for maac/windows users
 
 ## Notes and Warning Messages {#Notes-and-Warning-Messages}
 Throughout these instructions, we will use special symbols to alert you to important relevant information or aspects to be aware of.
