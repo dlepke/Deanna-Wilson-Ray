@@ -9,7 +9,7 @@ nav_order: 1
 
 Before beginning this guide, you should first check if your device already has a public SSH key set up. You can do this by following the guide below.
 
-| ![](../../assets/images/info.png) | If you already have a public SSH key set up on your device, please begin this guide at [Step 3: Adding An SSH Key to GitHub.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/SSHinGithub/) |  
+|  ![](../../assets/images/info.png) | If you already have a public SSH key set up on your device, please begin this guide at [Step 3: Adding An SSH Key to GitHub.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/SSHinGithub/) |  
 
 
 ## Step 1: Open Terminal
@@ -43,9 +43,7 @@ These files would appear like the following:
 ![](../../assets/images/Terminal-check-for-ssh.png)
 
 
-|  |  |  
-|-------|------|
-| ![](../../assets/images/info.png) | If you receive an error that ~/.ssh doesn't exist, then you do not have an existing SSH key pair. |  
+|  ![](../../assets/images/info.png) | If you receive an error that ~/.ssh doesn't exist, then you do not have an existing SSH key pair. |  
 
 
 ## Next: [Generate a new SSH key](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/)
