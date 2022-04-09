@@ -39,11 +39,12 @@ in Terminal. If you need to do a fresh install of Git, you can find the latest v
 
 ### Procedures Overview {#Procedures-Overview}
 The main sections of the documentation are as follows:
-* Checking for existing SSH keys
-* Generating a new GitHub SSH key
-* Adding a new SSH key to your local device
-* Forking, cloning, and pushing to a repo from the command line
-* Pushing changes to GitHub
+* [Checking for existing SSH keys](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/checkforSSH/)
+* [Generating a new GitHub SSH key](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/)
+* [Adding a new SSH key to your local device](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/addnewSSH/)
+* [Adding your new SSH key to your GitHub account](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/SSHinGithub/)
+* [Forking and cloning a repo from the command line](https://dlepke.github.io/Deanna-Wilson-Ray/docs/UsingSSHWithGit/forkandclone/)
+* [Pushing changes to GitHub](https://dlepke.github.io/Deanna-Wilson-Ray/docs/UsingSSHWithGit/pushgit/)
 
 ## Why Use SSH? {#Why-Use-SSH}
 These days, passwords can be easy to forget, hard to remember, and require constant updates if a data breach occurs. To avoid the issues a compromised password can cause, Github users are able to create what are known as "SSH key pairs" that provide a secure, reliable way to authenticate a user's credentials.
