@@ -33,7 +33,7 @@ Enter the following into your Terminal:
 
 ## 3. Select a file to save your new SSH key in
 
-When you're prompted to enter a file name, you can simply press 'Return' (or Enter on a non-Apple keyboard).
+When you're prompted to enter a file name, you can simply press 'Return' (or 'Enter' on a non-Apple keyboard).
 
 This will accept the default file location for your new SSH key.
 
