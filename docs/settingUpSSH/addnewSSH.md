@@ -77,12 +77,12 @@ A few important keyboard shortcuts to keep in mind:
 ### Step 4b: Edit your config file
 Add the following text to your config file:
 
-`
+```
 Host *
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
-`  
+```  
 
 | ![](../../assets/images/warning.png) | If you opted not to use a passphrase when generating your SSH key, omit the 'UseKeychain' line. |
 
