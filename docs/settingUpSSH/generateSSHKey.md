@@ -7,11 +7,11 @@ nav_order: 2
 
 # Generate A New SSH Key
 
-## 1. If you haven't already, [check if you already have a public SSH key set up.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/checkforSSH/)
+## 1. If you haven't already, [check if you already have a public SSH key set up.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/checkforSSH/)  
 
-If you have already generated a public SSH key, please skip to the next step: [Adding a public SSH key to your local device.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/addnewSSH/)
+If you have already generated a public SSH key, please skip to the next step: [Adding a public SSH key to your local device.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/addnewSSH/)  
 
-Follow these steps to generate a new SSH key (which will later be added to your device and your GitHub account).
+Follow these steps to generate a new SSH key (which will later be added to your device and your GitHub account).  
 
 ## 1. Open Terminal  
 On your Mac device, open the Terminal app.
@@ -28,8 +28,6 @@ Enter the following into your Terminal:
 
 (this screenshot needs updating)
 
-|  |  |  
-|-------|------|
 | ![](../../assets/images/info.png) | This will generate a new SSH key on your device, using the Ed25519 algorithm. You can learn about this algorithm [here](https://en.wikipedia.org/wiki/EdDSA#Ed25519). |  
 
 ![](../../assets/images/Terminal-generate-key.png)
