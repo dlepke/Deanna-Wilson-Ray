@@ -34,7 +34,7 @@ Our goal with this guide was to create a comprehensive, easy-to-follow set of st
 * Visual Studio Code
 
 
-## Conclusion {#Conclusion}
+## Conclusion
 We felt that GitHub SSH was a safer, more user friendly alternative to using GitHub tokens, and thus endeavoured to create this document to confer to you our knowledge of GitHub SSH.
 
 Though we are by no means experts in the topic, we hope that our efforts prove useful to anyone who comes across these instructions looking for insight into the inner workings and nuances of GitHub SSH.
