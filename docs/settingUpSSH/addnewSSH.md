@@ -104,7 +104,7 @@ In Nano, press the control + 'X' keys begin the exit process. Upon doing so, you
 
 ![](../../assets/images/saveNanoChanges.png)
 
-Press the 'Y' key on your keyboard too accept your changes. Nano will then ask you to confirm which file you wish to write the changes in to. Press the "Enter" key.
+Press the 'Y' key on your keyboard to accept your changes. Nano will then ask you to confirm which file you wish to write the changes in to. Press the "Enter" key.
 
 Congratulations! You have just used nano to edit and save a text file. This barely scratched the surface of Nano. If you want a more indepth, beginner friendly introduction you can click [here](https://www.hostinger.com/tutorials/how-to-install-and-use-nano-text-editor).
 
