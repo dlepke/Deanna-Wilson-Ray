@@ -36,8 +36,6 @@ Check if you already have a config file on your computer. Enter the following co
 
 `open ~/.ssh/config`
 
-|  |  |
-|-------|------|
 | ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
 
 If you receive an error along the lines of "The file does not exist", move on to step 3. If it exists, please refer to step 4.
@@ -47,8 +45,6 @@ Make a new config file in your default ssh location. Enter the following command
 
 `touch ~/.ssh/config`
 
-|  |  |
-|-------|------|
 | ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used.|
 
 This will create a new config file in your ssh directory. Now, if you enter `ls -al ~/.ssh` you should see your brand new config file in the directory.
@@ -63,8 +59,6 @@ To edit your config file, we'll first need to open it. You can use your preferre
 
 `nano ~/.ssh/config`
 
-|  |  |
-|-------|------|
 | ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used.|
 
 This will open your command-line editor and allow you to make changes directly through the terminal window. If you open a brand new config file, you should see something like this:
@@ -89,8 +83,6 @@ Host *
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
 ```
-|  |  |
-|------|------|
 |![](../../assets/images/warning.png) | If you opted not to use a passphrase when generating your SSH key, omit the 'UseKeychain' line.|
 
 If you are using nano, you can copy and and paste this text into your config file with command+C and command+V, respectively.
@@ -113,8 +105,6 @@ Return to your terminal and enter in the following command:
 
 `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`
 
-|  |  |
-|-------|------|
 | ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
 | ![](../../assets/images/warning.png) | If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.|
 
