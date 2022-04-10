@@ -12,3 +12,4 @@ nav_order: 4
 |`ssh-add` illegal option `--K` error|You may be using a version of MacOS in which the -K flag is deprecated.| If you are using Monterey, you can try to use `--apple-use-keychain` instead. Otherwise, check for the equivalent flag for your version of MacOS.|
 |Bad configuration option: usekeychain error|You may have omitted the UseKeychain line from your config file (if you did not attach a passphrase to your SSH key).| Add the line `IgnoreUnknown UseKeychain` to your config file.|
 |Errors regarding `ed25519` keys being unavailable on your system| You may be using legacy or otherwise software.|You can generate a key using other algorithms instead, though they may be less secure.|
+|Command-Line Error `bits has bad value` |You may have entered in SSH key generation command incorrectly.|Make sure there are no typos in your command and that you are using the correct flags.|
