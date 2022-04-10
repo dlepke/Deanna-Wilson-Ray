@@ -37,7 +37,7 @@ This will accept the default file location for your new SSH key.
 
 ![](../../assets/images/enter-file-name.png)
 
-| ![](../../assets/images/danger.png) | If you already have an existing SSH key on your local device, you may choose to proceed and overwrite your existing key. Ensure you do not need this old key before proceeding. |
+| ![](../../assets/images/warning.png) | If you already have an existing SSH key on your local device, you may choose to proceed and overwrite your existing key. Ensure you do not need this old key before proceeding. |
 
 ## 4. Select a passphrase
 
