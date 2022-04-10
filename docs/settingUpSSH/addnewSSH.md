@@ -23,17 +23,14 @@ Let's open up a new terminal window on your mac and type in the following comman
 
 `eval "$(ssh-agent -s)"`
 
-Note: You may need to enter in a slightly different command depending on your environment. For instance, if you require root access the command may look like the following:
+Note: You may need to enter in a slightly different command depending on your environment. If you have repeated issues with this step, please refer to our [troubleshooting guide](https://dlepke.github.io/Deanna-Wilson-Ray/docs/troubleshooting/).
 
-`sudo -s -H`
-`eval "$(ssh-agent -s)"`
-
-If you have repeated issues with this step, please refer to our [troubleshooting guide](https://dlepke.github.io/Deanna-Wilson-Ray/docs/troubleshooting/).
-
-You'll know you've done this step correctly when the terminal outputs something like "Agent pid 111111" (the number will vary).
+You'll know you've done this step correctly when the terminal outputs something like `Agent pid 111111` (the number will vary).
 
 ## Step 2: Set Up Your SSH Config File
-Now that you've made your SSH Key, you'll need a way to tell your SSH Agent it exists, and to manage it for you.
+Now that you've made your SSH Key, you'll need a way to tell your SSH Agent it exists so that it can manage it for you.
+
+This is done through something called a config file.
 
 Check if you already have a config file on your computer. Enter the following command on your terminal window:
 
@@ -52,7 +49,7 @@ Make a new config file in your default ssh location. Enter the following command
 
 |  |  |
 |-------|------|
-| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
+| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used.|
 
 This will create a new config file in your ssh directory. Now, if you enter `ls -al ~/.ssh` you should see your brand new config file in the directory.
 
@@ -68,7 +65,7 @@ To edit your config file, we'll first need to open it. You can use your preferre
 
 |  |  |
 |-------|------|
-| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
+| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used.|
 
 This will open your command-line editor and allow you to make changes directly through the terminal window. If you open a brand new config file, you should see something like this:
 
@@ -92,8 +89,9 @@ Host *
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
 ```
-
-*Note: If you opted not to use a passphrase when generating your SSH key, omit the 'UseKeychain' line.*
+|  |  |
+|-------|------|
+| ![](../../assets/images/warning.png) | If you opted not to use a passphrase when generating your SSH key, omit the 'UseKeychain' line.|
 
 If you are using nano, you can copy and and paste this text into your config file with command+C and command+V, respectively.
 
@@ -104,9 +102,9 @@ In Nano, press the control + 'X' keys begin the exit process. Upon doing so, you
 
 ![](../../assets/images/saveNanoChanges.png)
 
-Press the 'Y' key on your keyboard to accept your changes. Nano will then ask you to confirm which file you wish to write the changes in to. Press the "Enter" key.
+Press the 'Y' key on your keyboard to accept your changes. Nano will then ask you to confirm which file you wish to write the changes in to. Press the 'Return' key.
 
-Congratulations! You have just used nano to edit and save a text file. This barely scratched the surface of Nano. If you want a more indepth, beginner friendly introduction you can click [here](https://www.hostinger.com/tutorials/how-to-install-and-use-nano-text-editor).
+Congratulations! You have just used nano to edit and save a text file. This barely scratched the surface of Nano's features. If you want a more indepth, beginner friendly introduction you can click [here](https://www.hostinger.com/tutorials/how-to-install-and-use-nano-text-editor).
 
 ## Step 5: Add your SSH private key to the SSH-Agent
 Now that your SSH-Agent will know what to do with your new SSH Key, we can formally add it to your agent.
@@ -118,7 +116,6 @@ Return to your terminal and enter in the following command:
 |  |  |
 |-------|------|
 | ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
-
-*Note: If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.*
+| ![](../../assets/images/warning.png) | If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.|
 
 Congratulations! You have now generated and added a new SSH key to your device. You can now add it to your Github Account.
