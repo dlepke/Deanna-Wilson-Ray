@@ -20,7 +20,7 @@ On your Mac device, open the Terminal app.
 
 ## 2. Generate a new SSH key:  
 
-<!-- ran into "bits has bad value" -->
+
 
 Enter the following into your Terminal:
 
