@@ -77,12 +77,13 @@ A few important keyboard shortcuts to keep in mind:
 ### Step 4b: Edit your config file
 Add the following text to your config file:
 
-```
+`
 Host *
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
-```
+`  
+
 | ![](../../assets/images/warning.png) | If you opted not to use a passphrase when generating your SSH key, omit the 'UseKeychain' line. |
 
 If you are using nano, you can copy and and paste this text into your config file with command+C and command+V, respectively.
@@ -103,9 +104,10 @@ Now that your SSH-Agent will know what to do with your new SSH Key, we can forma
 
 Return to your terminal and enter in the following command:
 
-`ssh-add --apple-use-keychain ~/.ssh/id_ed25519`
+`ssh-add --apple-use-keychain ~/.ssh/id_ed25519`  
 
-| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
+
+| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |  
 | ![](../../assets/images/warning.png) | If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.|
 
 Congratulations! You have now generated and added a new SSH key to your device. You can now add it to your Github Account.
