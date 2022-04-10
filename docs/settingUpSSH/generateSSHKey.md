@@ -30,7 +30,7 @@ Enter the following into your Terminal:
 
 | ![](../../assets/images/info.png) | This will generate a new SSH key on your device, using the Ed25519 algorithm. You can learn about this algorithm [here](https://en.wikipedia.org/wiki/EdDSA#Ed25519). |  
 
-![](../../assets/images/Terminal-generate-key.png)
+![](../../assets/images/generate-key.png)
 
 ## 3. Select a file to save your new SSH key in
 

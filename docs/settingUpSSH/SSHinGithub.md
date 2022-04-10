@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Add SSH to Github Account
+title: Add SSH to GitHub Account
 parent: Setting Up SSH
 nav_order: 4
 ---
@@ -12,7 +12,7 @@ Now that you have generated an SSH key and linked it to your device, it is time 
 ## Step 1: Log into your GitHub Account
 First, log into your GitHub account at [GitHub.com](https://github.com/login).
 
-If you do not currently own a GitHub account, one can be made [here](https://github.com/signup).
+If you do not currently have a GitHub account, you can make one [here](https://github.com/signup).
 
 Upon logging in, you will be taking to you GitHub home page, which will look something like this:
 
