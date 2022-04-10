@@ -83,7 +83,7 @@ Host *
   UseKeychain yes
   IdentityFile ~/.ssh/id_ed25519
 ```
-|![](../../assets/images/warning.png) | If you opted not to use a passphrase when generating your SSH key, omit the 'UseKeychain' line.|
+| ![](../../assets/images/warning.png) | If you opted not to use a passphrase when generating your SSH key, omit the 'UseKeychain' line. |
 
 If you are using nano, you can copy and and paste this text into your config file with command+C and command+V, respectively.
 
