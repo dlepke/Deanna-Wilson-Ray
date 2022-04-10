@@ -46,5 +46,9 @@ These files would appear like the following:
 
 |  ![](../../assets/images/info.png) | If you receive an error that ~/.ssh doesn't exist, then you do not have an existing SSH key pair. |
 
+## Step 4: If you have an existing key
+
+If you have any of the files from Step 3 already on your device, you already have a generated SSH key and you can skip ahead to [adding your SSH key to your local device.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/addnewSSH/)
+
 
 ## Next: [Generate a new SSH key](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/)
