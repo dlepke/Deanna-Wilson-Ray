@@ -38,7 +38,9 @@ When you're prompted to enter a file name, you can simply press Return (or Enter
 
 This will accept the default file location for your new SSH key.
 
-[ screencap here ]
+![](../../assets/images/enter-file-name.png)
+
+| ![](../../assets/images/danger.png) | If you already have an existing SSH key on your local device, you may choose to proceed and overwrite your existing key. Ensure you do not need this old key before proceeding. |  
 
 ## 4. Select a passphrase
 
@@ -47,7 +49,15 @@ When you're prompted to "Enter passphrase", you can either:
 * Enter a secure passphrase (you will have to type this in every time you use your SSH key), or  
 * Immediately press Return on your keyboard to skip and have no passphrase
 
-[ enter screencap here ]
+![](../../assets/images/enter-passphrase.png)
+
+## 5. Copy your new SSH key
+
+In Terminal, you will see a 'key fingerprint'. Keep this; you'll need it for the next step.
+
+Below you'll see where this key fingerprint will show up on your screen:
+
+![](randomart-image.png)
 
 ## Next: [Add your new SSH key to your local device.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/addnewSSH/)
 

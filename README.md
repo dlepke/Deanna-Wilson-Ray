@@ -3,9 +3,9 @@
 </p>
 <br><br>
 <p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://just-the-docs.github.io/just-the-docs/">See it in action!</a></strong></p>
+    <h1 align="center">Setting Up SSH</h1>
+    <p align="center">This comprehensive guide will help you set up and use an SSH key on your Mac.<br>This was written for CST's COMM 2216 course.</p>
+    <p align="center"><strong><a href="https://dlepke.github.io/Deanna-Wilson-Ray/">Get started here!</a></strong></p>
     <br><br><br>
 </p>
 
