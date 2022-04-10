@@ -9,6 +9,7 @@ nav_order: 2
 
 ## 1. If you haven't already, [check if you already have a public SSH key set up.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/checkforSSH/)
 
+
 If you have already generated a public SSH key that you wish to use, please skip to the next step: [Adding a public SSH key to your local device.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/addnewSSH/)
 
 Follow these steps to generate a new SSH key (which will later be added to your device and your GitHub account).
