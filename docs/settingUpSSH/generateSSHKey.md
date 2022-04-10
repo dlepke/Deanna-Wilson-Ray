@@ -25,8 +25,6 @@ Enter the following into your Terminal:
 
 `ssh-keygen -t ed25519 -C "your_email@example.com"`
 
-(this screenshot needs updating)
-
 | ![](../../assets/images/info.png) | This will generate a new SSH key on your device, using the Ed25519 algorithm. You can learn about this algorithm [here](https://en.wikipedia.org/wiki/EdDSA#Ed25519). |
 
 ![](../../assets/images/generate-key.png)
@@ -46,7 +44,9 @@ This will accept the default file location for your new SSH key.
 When you're prompted to "Enter passphrase", you can either:
 
 * Enter a secure passphrase (you will have to type this in every time you use your SSH key), or
-* Immediately press Return on your keyboard to skip and have no passphrase
+* Immediately press 'Return' on your keyboard to skip and have no passphrase
+
+When prompted, re-enter your chosen passphrase again. If you have chosen not to use a passphrase, you can press 'Return' again.
 
 ![](../../assets/images/enter-passphrase.png)
 
