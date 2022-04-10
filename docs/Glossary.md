@@ -6,8 +6,8 @@ nav_order: 5
 # Glossary
 |Term|Definition|
 |---|---|
-|Command-Line|A user interface that allows for the input of instructions, used to navigate around a desktop without a mouse.|
-|config file| short for "configuration file", used to set and define the parameters and initial settings of a computer program.|
+|Command-Line|A user interface that allows for the input of commands to your machine, used to navigate around a desktop without a mouse.|
+|Config File| short for "configuration file", used to set and define the parameters and initial settings of a computer program.|
 |Directory|A location, often a folder, on a computer where files are stored.|
 |Git|Computing software that tracks changes in files, used to coordinate collaborative work between programmers.|
 |GitHub|Internet hosting website for software development and version control via Git.|
