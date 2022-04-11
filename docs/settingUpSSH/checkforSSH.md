@@ -9,14 +9,14 @@ nav_order: 1
 
 Before beginning this guide, you should first check if your device already has a public SSH key set up. You can do this by following the guide below.
 
-|  ![](../../assets/images/info.png) | If you know that you already have a public SSH key set up on your device, please begin this guide at [Step 3: Adding An SSH Key to GitHub.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/SSHinGithub/) |
+|  ![Info Icon](../../assets/images/info.png) | If you know that you already have a public SSH key set up on your device, please begin this guide at [Step 3: Adding An SSH Key to GitHub.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/SSHinGithub/) |
 
 
 ## Step 1: Open Terminal
 
 On your Mac device, open the Terminal app. It should look something like the following:
 
-![](../../assets/images/Terminal-start.png)
+![An image showing the appearance of a new terminal window](../../assets/images/Terminal-start.png)
 
 
 ## Step 2: Check for existing keys
@@ -25,11 +25,11 @@ In Terminal, enter the following command:
 
 `ls -al ~/.ssh`
 
-![](../../assets/images/Terminal-enter-command-check-ssh.png)
+![An image showing the command line with show directory command typed in](../../assets/images/Terminal-enter-command-check-ssh.png)
 
 This command is telling your machine to print out a list of the files and directories present in your default SSH key directory.
 
-|  ![](../../assets/images/info.png) | If you suspect that you may have SSH keys set up elsewhere on your device (other than the default location), you can replace "ssh" in the above command with your target directory (e.g. `ls -al ~/.target-directory). |
+|  ![Info Icon](../../assets/images/info.png) | If you suspect that you may have SSH keys set up elsewhere on your device (other than the default location), you can replace "ssh" in the above command with your target directory (e.g. `ls -al ~/.target-directory). |
 
 ## Step 3: Check for any of the following file names
 
@@ -41,10 +41,10 @@ After typing in the command from Step 2, if you see any of the following file na
 
 These files would appear like the following:
 
-![](../../assets/images/Terminal-check-for-ssh.png)
+![An image showing the results of the show directory command where there are pre-existing SSH keys](../../assets/images/Terminal-check-for-ssh.png)
 
 
-|  ![](../../assets/images/info.png) | If you receive an error that ~/.ssh doesn't exist, then you do not have an existing SSH key pair. |
+|  ![Info Icon](../../assets/images/info.png) | If you receive an error that ~/.ssh doesn't exist, then you do not have an existing SSH key pair. |
 
 ## Step 4: If you have an existing key
 

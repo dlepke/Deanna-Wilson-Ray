@@ -17,7 +17,7 @@ Follow these steps to generate a new SSH key (which will later be added to your 
 ## 2. Open Terminal
 On your Mac device, open the Terminal app.
 
-![](../../assets/images/Terminal-start.png)
+![An image depcting a blank, new Terminal window](../../assets/images/Terminal-start.png)
 
 ## 3. Generate a new SSH key:
 
@@ -25,7 +25,7 @@ Enter the following into your Terminal:
 
 `ssh-keygen -t ed25519 -C "your_email@example.com"`
 
-| ![](../../assets/images/info.png) | This will generate a new SSH key on your device, using the Ed25519 algorithm. You can learn about this algorithm [here](https://en.wikipedia.org/wiki/EdDSA#Ed25519). |
+| ![Info Icon](../../assets/images/info.png) | This will generate a new SSH key on your device, using the Ed25519 algorithm. You can learn about this algorithm [here](https://en.wikipedia.org/wiki/EdDSA#Ed25519). |
 
 ![](../../assets/images/generate-key.png)
 
@@ -35,9 +35,9 @@ When you're prompted to enter a file name, you can simply press 'Return' (or 'En
 
 This will accept the default file location for your new SSH key.
 
-![](../../assets/images/enter-file-name.png)
+![An image depicting the command line prompt to enter a destination for your new SSH key](../../assets/images/enter-file-name.png)
 
-| ![](../../assets/images/warning.png) | If you already have an existing SSH key on your local device, you may choose to proceed and overwrite your existing key. Ensure you do not need this old key before proceeding. |
+| ![Warning Icon](../../assets/images/warning.png) | If you already have an existing SSH key on your local device, you may choose to proceed and overwrite your existing key. Ensure you do not need this old key before proceeding. |
 
 ## 5. Select a passphrase
 
@@ -48,7 +48,7 @@ When you're prompted to "Enter passphrase", you can either:
 
 When prompted, re-enter your chosen passphrase again. If you have chosen not to use a passphrase, you can press 'Return' again.
 
-![](../../assets/images/enter-passphrase.png)
+![An image depicting the command line prompt to enter in a passphrase for your new SSH Key](../../assets/images/enter-passphrase.png)
 
 ## Next: [Add your new SSH key to your local device.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/addnewSSH/)
 
