@@ -12,6 +12,7 @@ First, let's do a quick check of what we've done so far.
 ## Quick Status Check
 1. [Have you checked for existing SSH keys on your device?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/checkforSSH/)
 2. [Have you generated an SSH key on your device?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/)
+| ![Information Icon](../../assets/images/info.png) | If you already had an existing SSH key, this step is not necessary for you |  
 3. [Do you know where your SSH key is stored?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/#3-select-a-file-to-save-your-new-ssh-key-in)
 
 If you aren't sure what any of this means, please go back to the [introduction](https://dlepke.github.io/Deanna-Wilson-Ray/) to get familiar with what you'll need and to make sure you start off on the right foot.
