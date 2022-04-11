@@ -7,19 +7,55 @@ nav_order: 1
 
 # Forking and Cloning Repositories using SSH Keys
 
-## Step 1: go to the desired GitHub repository
- To clone a repository from GitHub using SSH Keys, first go to the repository you wish to clone, which should look something like this:
+In this mini-guide, we're going to fork [a sample repository we've prepared to practice with](https://github.com/dlepke/SampleRepo), then clone it to your local device.  
 
-![](../../assets/images/github_repo.png)
+In the [next step,](https://dlepke.github.io/Deanna-Wilson-Ray/docs/UsingSSHWithGit/pushgit/) we will guide you through pushing to this repository.
 
-## Step 2: copy the SSH link
- Click on the green code button, highlighted below in red, and select the "SSH" option, outlined in blue, from the dropdown list.
+## Step 1: Go to the desired GitHub repository
+To clone a repository, first navigate to the [GitHub repository](https://github.com/dlepke/SampleRepo).
+
+![](../../assets/images/github_sample_repo.png)
+
+## Step 2: Fork the repository
+1. Select the Fork button in the top right corner of the page.
+
+![](../../assets/images/github_fork.png)
+
+2. If you have multiple destinations available on GitHub, you will be asked where to fork the repository. Please select your preferred location for the repository.
+
+![](../../assets/images/github_fork_where.png)
+
+## Step 3: Copy the SSH link
+Now that you've forked the sample repository to your own account, you can clone your own version of the repository to your local device.
+
+On the repository page in GitHub, click on the green code button, highlighted below in red, and select the "SSH" option, outlined in blue, from the dropdown list.
 
 ![](../../assets/images/SSH_option.png)
 
-In this window, click the double windowed copy symbol, underlined in green in the picture below, or highlight the link, underlined in red below, and copy it by pressing and holding down the "command" key and then pressing the "c" key.
+In this window, click the double windowed copy symbol, outlined in green in the picture below. This will copy the link outlined in red to your clipboard.
 
 ![](../../assets/images/copy_github_link.png)
 
-## Step 3: Clone the repository to your IDE of choice
-Once you have copied the link, you can now clone the repository using the link and your IDE of choice, such as PyCharm or the command line.
+## Step 4: Clone the repository to your IDE of choice
+1. Open Terminal
+
+![](../../assets/images/Terminal-start.png)
+
+2. Navigate to the directory you would like to clone the sample repository into.
+
+Upon opening Terminal, you will automatically be in the root directory (denoted by '~'). We recommend you clone the repository to your Desktop; you can navigate to your Desktop in Terminal by entering the following command:
+
+```
+cd Desktop
+```
+
+3. Enter the following command into Terminal:
+
+```
+git clone (your GitHub clone link here)
+```
+
+Make sure you replace (your GitHub clone link here) with the link you copied from your GitHub repository page in Step 3. 
+
+4. Congratulations! You have now successfully cloned your version of the SampleRepo to your local device.
+
