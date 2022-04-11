@@ -5,7 +5,7 @@ parent: Setting Up SSH
 nav_order: 3
 ---
 
-# Add your SSH Key to your local device
+# Add your SSH Key to your Local Device
 
 First, let's do a quick check of what we've done so far.
 
@@ -41,7 +41,7 @@ Check if you already have a config file on your computer. Enter the following co
 
 | ![Danger Icon](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
 
-If you receive an error along the lines of "The file does not exist", move on to step 3. If it exists, please refer to step 4.
+If you receive an error along the lines of "The file does not exist", move on to step 3. If this command worked, please refer to step 4b.
 
 ## Step 3: Make A Config File
 Make a new config file in your default ssh location. Enter the following command on to your terminal:
@@ -94,7 +94,9 @@ If you are using nano, you can copy and and paste this text into your config fil
 ### Step 4c: Save and close your config file
 Now that the necessary changes have been made, save and close your config file.
 
-In Nano, press the control + 'X' keys begin the exit process. Upon doing so, you should see the following prompt:
+If you are using an editor, save and close your file as you would with any other document or file.
+
+If you are using Nano, press the control + 'X' keys begin the exit process. Upon doing so, you should see the following prompt:
 
 ![Image showing a Nano editor with the "save changes" prompt](../../assets/images/saveNanoChanges.png)
 
@@ -110,8 +112,8 @@ Return to your terminal and enter in the following command:
 `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`  
 
 
-| ![Danger Icon](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |  
-| ![Warning Icon](../../assets/images/warning.png) | If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.|
+| ![Danger Icon](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used.|  
+| ![Warning Icon](../../assets/images/warning.png) | If your version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.|
 
 Congratulations! You have now generated and added a new SSH key to your device. You can now add it to your Github Account.
 
