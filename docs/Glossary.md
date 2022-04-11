@@ -4,6 +4,7 @@ title: Glossary
 nav_order: 5
 ---
 # Glossary
+
 | Term | Definition |  
 |---|---|  
 | Command-Line | A user interface that allows for the input of commands to your machine, used to navigate around a desktop without a mouse. |  
