@@ -59,7 +59,7 @@ If you no longer have this key available, you can enter the following command in
 
 4) You can also add a title; this will help identify which device that SSH key is linked to
 
-5) Once you are done, click the green "Add SSH Key" button to add your newly generated key to GitHub
+5) Once you are done, click the green "Add SSH Key" button to add your newly generated key to GitHub 
 
 ![An image of Github's SSH Add Key Page after filling in the necessary SSH Key information](../../assets/images/finally_add_ssh_key.png)
 
