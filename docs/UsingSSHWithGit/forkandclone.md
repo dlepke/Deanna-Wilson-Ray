@@ -36,7 +36,7 @@ In this window, click the double windowed copy symbol, outlined in green in the 
 
 ![An annotated image of the button used for copying repository links for cloning git repositories](../../assets/images/ssh-get-clone-link.png)
 
-## Step 4: Clone the repository to your IDE of choice
+## Step 4: Clone the repository to your local device
 1) Open Terminal
 
 ![An image of a new terminal window](../../assets/images/Terminal-start.png)
@@ -49,7 +49,7 @@ Upon opening Terminal, you will automatically be in the root directory (denoted 
 cd Desktop
 ```
 
-c. Enter the following command into Terminal:
+3) Enter the following command into Terminal:
 
 ```
 git clone (your GitHub clone link here)
@@ -57,5 +57,6 @@ git clone (your GitHub clone link here)
 
 Make sure you replace (your GitHub clone link here) with the link you copied from your GitHub repository page in Step 3. 
 
-d. Congratulations! You have now successfully cloned your version of the SampleRepo to your local device.
+4) Congratulations! You have now successfully cloned your version of the SampleRepo to your local device.
 
+## Next: [Push a change to your GitHub account](https://dlepke.github.io/Deanna-Wilson-Ray/docs/UsingSSHWithGit/pushgit/)
