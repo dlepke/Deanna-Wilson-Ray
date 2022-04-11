@@ -10,7 +10,7 @@ permalink: /docs/instructions
 
 This portion will guide you through the process of locating existing SSH keys on your machine, generating new keys, adding them to your SSH-Agent, and connecting them to Github.
 
-If you have never used your machine's command line interface before, this instruction manual will be a gentle introduction to it's features and power. Let's get started!
+If you have never used your machine's command line interface before, this instruction manual will be a gentle introduction to its features and power. Let's get started!
 
 |  |  |
 |-------|------|
