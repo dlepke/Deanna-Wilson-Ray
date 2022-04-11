@@ -111,3 +111,5 @@ Return to your terminal and enter in the following command:
 | ![](../../assets/images/warning.png) | If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.|
 
 Congratulations! You have now generated and added a new SSH key to your device. You can now add it to your Github Account.
+
+## Next: [Add SSH Key to your Github Account.](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/SSHinGithub/)
