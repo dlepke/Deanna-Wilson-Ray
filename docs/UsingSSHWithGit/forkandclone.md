@@ -17,11 +17,11 @@ To clone a repository, first navigate to the [GitHub repository](https://github.
 ![](../../assets/images/github_sample_repo.png)
 
 ## Step 2: Fork the repository
-1. Select the Fork button in the top right corner of the page.
+a. Select the Fork button in the top right corner of the page.
 
 ![](../../assets/images/github_fork.png)
 
-2. If you have multiple destinations available on GitHub, you will be asked where to fork the repository. Please select your preferred location for the repository.
+b. If you have multiple destinations available on GitHub, you will be asked where to fork the repository. Please select your preferred location for the repository.
 
 ![](../../assets/images/github_fork_where.png)
 
@@ -37,11 +37,11 @@ In this window, click the double windowed copy symbol, outlined in green in the 
 ![](../../assets/images/copy_github_link.png)
 
 ## Step 4: Clone the repository to your IDE of choice
-1. Open Terminal
+a. Open Terminal
 
 ![](../../assets/images/Terminal-start.png)
 
-2. Navigate to the directory you would like to clone the sample repository into.
+b. Navigate to the directory you would like to clone the sample repository into.
 
 Upon opening Terminal, you will automatically be in the root directory (denoted by '~'). We recommend you clone the repository to your Desktop; you can navigate to your Desktop in Terminal by entering the following command:
 
@@ -49,7 +49,7 @@ Upon opening Terminal, you will automatically be in the root directory (denoted 
 cd Desktop
 ```
 
-3. Enter the following command into Terminal:
+c. Enter the following command into Terminal:
 
 ```
 git clone (your GitHub clone link here)
@@ -57,5 +57,5 @@ git clone (your GitHub clone link here)
 
 Make sure you replace (your GitHub clone link here) with the link you copied from your GitHub repository page in Step 3. 
 
-4. Congratulations! You have now successfully cloned your version of the SampleRepo to your local device.
+d. Congratulations! You have now successfully cloned your version of the SampleRepo to your local device.
 
