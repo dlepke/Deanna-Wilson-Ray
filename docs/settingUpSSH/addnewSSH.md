@@ -36,7 +36,7 @@ Check if you already have a config file on your computer. Enter the following co
 
 `open ~/.ssh/config`
 
-| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
+| ![Danger Icon](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |
 
 If you receive an error along the lines of "The file does not exist", move on to step 3. If it exists, please refer to step 4.
 
@@ -45,7 +45,7 @@ Make a new config file in your default ssh location. Enter the following command
 
 `touch ~/.ssh/config`
 
-| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used.|
+| ![Danger Icon](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used.|
 
 This will create a new config file in your ssh directory. Now, if you enter `ls -al ~/.ssh` you should see your brand new config file in the directory.
 
@@ -59,11 +59,11 @@ To edit your config file, we'll first need to open it. You can use your preferre
 
 `nano ~/.ssh/config`
 
-| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used.|
+| ![Danger Icon](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used.|
 
 This will open your command-line editor and allow you to make changes directly through the terminal window. If you open a brand new config file, you should see something like this:
 
-![](../../assets/images/blankNanoImage.png)
+![Image showing a blank Nano screen for editing text documents](../../assets/images/blankNanoImage.png)
 
 Here, you can type notes as usual, but do keep in mind that, just like your terminal, your only way of interacting with Nano is through your keyboard (no cursors or clicking, here!).
 
@@ -84,7 +84,7 @@ Host *
   IdentityFile ~/.ssh/id_ed25519
 ```  
 
-| ![](../../assets/images/warning.png) | If you opted not to use a passphrase when generating your SSH key, omit the 'UseKeychain' line. |
+| ![Warning Icon](../../assets/images/warning.png) | If you opted not to use a passphrase when generating your SSH key, omit the 'UseKeychain' line. |
 
 If you are using nano, you can copy and and paste this text into your config file with command+C and command+V, respectively.
 
@@ -93,7 +93,7 @@ Now that the necessary changes have been made, save and close your config file.
 
 In Nano, press the control + 'X' keys begin the exit process. Upon doing so, you should see the following prompt:
 
-![](../../assets/images/saveNanoChanges.png)
+![Image showing a Nano editor with the "save changes" prompt](../../assets/images/saveNanoChanges.png)
 
 Press the 'Y' key on your keyboard to accept your changes. Nano will then ask you to confirm which file you wish to write the changes in to. Press the 'Return' key.
 
@@ -107,8 +107,8 @@ Return to your terminal and enter in the following command:
 `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`  
 
 
-| ![](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |  
-| ![](../../assets/images/warning.png) | If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.|
+| ![Danger Icon](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |  
+| ![Warning Icon](../../assets/images/warning.png) | If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.|
 
 Congratulations! You have now generated and added a new SSH key to your device. You can now add it to your Github Account.
 

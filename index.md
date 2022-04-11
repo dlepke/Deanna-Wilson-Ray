@@ -67,5 +67,4 @@ Throughout these instructions, we will use special symbols to alert you to impor
 |![](/assets/images/danger.png) | **Danger:** This symbol indicates a dangerous action that could lead to a crash or other major issue.|
 |![](/assets/images/warning.png) | **Warning:** This symbol denotes a warning. We highly recommend that you read and keep this in mind when proceeding. |
 |![](/assets/images/info.png) | **Info:** This symbol is to alert you to additional information or potentially useful tips that may be of use or interest. |
-|![](/assets/images/success.png) | **Success:** This symbol means a job well done. Congratulations!|
 

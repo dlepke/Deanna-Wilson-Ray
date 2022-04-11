@@ -14,32 +14,32 @@ In the [next step,](https://dlepke.github.io/Deanna-Wilson-Ray/docs/UsingSSHWith
 ## Step 1: Go to the desired GitHub repository
 To clone a repository, first navigate to the [GitHub repository](https://github.com/dlepke/SampleRepo).
 
-![](../../assets/images/github_sample_repo.png)
+![An image of a sample repository hosted on Github](../../assets/images/github_sample_repo.png)
 
 ## Step 2: Fork the repository
 a. Select the Fork button in the top right corner of the page.
 
-![](../../assets/images/github_fork.png)
+![An image of the "Fork" button on the sample repository](../../assets/images/github_fork.png)
 
 b. If you have multiple destinations available on GitHub, you will be asked where to fork the repository. Please select your preferred location for the repository.
 
-![](../../assets/images/github_fork_where.png)
+![An image of the pop-up window shown when forking a repository on Github](../../assets/images/github_fork_where.png)
 
 ## Step 3: Copy the SSH link
 Now that you've forked the sample repository to your own account, you can clone your own version of the repository to your local device.
 
 On the repository page in GitHub, click on the green code button, highlighted below in red, and select the "SSH" option, outlined in blue, from the dropdown list.
 
-![](../../assets/images/SSH_option.png)
+![An annotated image showing the SSH Option for cloning a git repository](../../assets/images/SSH_option.png)
 
 In this window, click the double windowed copy symbol, outlined in green in the picture below. This will copy the link outlined in red to your clipboard.
 
-![](../../assets/images/copy_github_link.png)
+![An annotated image of the button used for copying repository links for cloning git repositories](../../assets/images/copy_github_link.png)
 
 ## Step 4: Clone the repository to your IDE of choice
 a. Open Terminal
 
-![](../../assets/images/Terminal-start.png)
+![An image of a new terminal window](../../assets/images/Terminal-start.png)
 
 b. Navigate to the directory you would like to clone the sample repository into.
 
