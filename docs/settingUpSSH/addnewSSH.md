@@ -27,7 +27,9 @@ Let's open up a new terminal window on your mac and type in the following comman
 
 Note: You may need to enter in a slightly different command depending on your environment. If you have repeated issues with this step, please refer to our [troubleshooting guide](https://dlepke.github.io/Deanna-Wilson-Ray/docs/troubleshooting/).
 
-You'll know you've done this step correctly when the terminal outputs something like `Agent pid 111111` (the number will vary).
+You'll know you've done this step correctly when the terminal outputs something like  
+`Agent pid 111111`  
+(the number will vary).
 
 ## Step 2: Set Up Your SSH Config File
 Now that you've made your SSH Key, you'll need a way to tell your SSH Agent it exists so that it can manage it for you.
