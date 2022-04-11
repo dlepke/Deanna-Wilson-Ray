@@ -30,6 +30,7 @@ Our goal with this guide was to create a comprehensive, easy-to-follow set of st
     * https://dl90.github.io/linux-basics/
     * https://github.com/megankuo/Express-User-Documentation/
 * Cloned repo found at: https://github.com/just-the-docs/just-the-docs
+* Used information from the [GitHub SSH Instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)
 * Markdown
 * Visual Studio Code
 

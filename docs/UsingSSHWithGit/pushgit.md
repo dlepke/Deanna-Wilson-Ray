@@ -24,7 +24,7 @@ The "." is telling git to add all changed files to your latest commit.
 ## Step 3: Commit your changes
 In your terminal, enter the following command:
 
-`git commit -m"my commit details"`
+`git commit -m "my commit details"`
 
 Where the information between the double quotes relates to the work you are pushing to your repository.
 
