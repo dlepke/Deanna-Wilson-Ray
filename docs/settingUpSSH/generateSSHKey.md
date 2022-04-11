@@ -14,12 +14,12 @@ If you have already generated a public SSH key that you wish to use, please skip
 
 Follow these steps to generate a new SSH key (which will later be added to your device and your GitHub account).
 
-## 1. Open Terminal
+## 2. Open Terminal
 On your Mac device, open the Terminal app.
 
 ![](../../assets/images/Terminal-start.png)
 
-## 2. Generate a new SSH key:
+## 3. Generate a new SSH key:
 
 Enter the following into your Terminal:
 
@@ -29,7 +29,7 @@ Enter the following into your Terminal:
 
 ![](../../assets/images/generate-key.png)
 
-## 3. Select a file to save your new SSH key in
+## 4. Select a file to save your new SSH key in
 
 When you're prompted to enter a file name, you can simply press 'Return' (or 'Enter' on a non-Apple keyboard).
 
@@ -39,7 +39,7 @@ This will accept the default file location for your new SSH key.
 
 | ![](../../assets/images/warning.png) | If you already have an existing SSH key on your local device, you may choose to proceed and overwrite your existing key. Ensure you do not need this old key before proceeding. |
 
-## 4. Select a passphrase
+## 5. Select a passphrase
 
 When you're prompted to "Enter passphrase", you can either:
 
