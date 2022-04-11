@@ -17,6 +17,7 @@ nav_order: 5
 | GitHub | Internet hosting website for software development and version control via Git. |  
 | IDE | Stands for "Integrated Development Environment"; an application that facilitates the development of software and often has many helpful tools. |  
 | Local Device | The physical computer with which you're working. In this case, it would be your Mac device, because this guide is Mac-specific. |  
+| Nano | Text editing software that allows you to edit text files via the command line. |
 | Repository | A centralized location in which data or code can be stored and managed, often shortened to "repo". |  
 | SSH key | Stands for Secure Shell key. A secure way for two devices to communicate with each other. |  
 | Terminal | Application that allows users to input command line instructions. |  
