@@ -30,11 +30,11 @@ Now that you've forked the sample repository to your own account, you can clone 
 
 On the repository page in GitHub, click on the green code button, highlighted below in red, and select the "SSH" option, outlined in blue, from the dropdown list.
 
-![An annotated image showing the SSH Option for cloning a git repository](../../assets/images/SSH_option.png)
+![An annotated image showing the SSH Option for cloning a git repository](../../assets/images/ssh-clone.png)
 
 In this window, click the double windowed copy symbol, outlined in green in the picture below. This will copy the link outlined in red to your clipboard.
 
-![An annotated image of the button used for copying repository links for cloning git repositories](../../assets/images/copy_github_link.png)
+![An annotated image of the button used for copying repository links for cloning git repositories](../../assets/images/ssh-get-clone-link.png)
 
 ## Step 4: Clone the repository to your IDE of choice
 1) Open Terminal
