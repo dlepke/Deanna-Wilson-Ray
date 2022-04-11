@@ -6,7 +6,7 @@ nav_order: 5
 # Glossary
 
 | Term | Definition |  
-|---|---|  
+| ------- | -------------- |  
 | Command-Line | A user interface that allows for the input of commands to your machine, used to navigate around a desktop without a mouse. |  
 | Config File | Short for "configuration file", used to set and define the parameters and initial settings of a computer program. |  
 | Directory | A location, often a folder, on a computer where files are stored. |  
