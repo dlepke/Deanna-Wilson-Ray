@@ -6,7 +6,7 @@ nav_order: 2
 ---
 
 ## How to Git Push with SSH
-This portion of the guide assumes that you have completed all of the steps necessary to generate, add, and set up an SSH Key with your Github account.
+This portion of the guide assumes that you have completed all of the steps necessary to generate, add, and set up an SSH Key with your Github account. It also assumes that you have made at least one change to the document(s) in your working repository. If you haven't, git will (correctly) recognize that no changes have been made, and you will have nothing to push to your Github repository!
 
 ## Step 1: Navigate to your project directory
 In a new terminal window, navigate to the working directory of the project you wish to push to your Github repository. A few commands that could work:
