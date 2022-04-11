@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Add SSH to GitHub account
+title: Add SSH key to GitHub account
 parent: Setting Up SSH
 nav_order: 4
 ---
