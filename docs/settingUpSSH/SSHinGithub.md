@@ -41,7 +41,11 @@ Doing so should bring you to this page:
 
 ## Step 4: Add a new SSH key
 
-Now, we add the SSH key you generated earlier to your GitHub account:
+Now, we add the SSH key you generated earlier to your GitHub account.  
+
+If you no longer have this key available, you can enter the following command into Terminal to copy it into your clipboard again:  
+
+![An image of the command to copy your SSH key to your clipboard](../../assets/images/copy_key.png)
 
 1. Click the green button in the top right labelled "New SSH Key", which looks like this:
 
