@@ -5,14 +5,15 @@ parent: Setting Up SSH
 nav_order: 3
 ---
 
-# Add your SSH Key to your local device
+# Add your SSH Key to your Local Device
 
 First, let's do a quick check of what we've done so far.
 
 ## Quick Status Check
 1. [Have you checked for existing SSH keys on your device?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/checkforSSH/)
 2. [Have you generated an SSH key on your device?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/)
-3. [Do you know where your SSH key is stored?](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/#3-select-a-file-to-save-your-new-ssh-key-in)
+
+| ![Information Icon](../../assets/images/info.png) | Note: If you already had an existing SSH key, Status Check Step 2 is not necessary for you |  
 
 If you aren't sure what any of this means, please go back to the [introduction](https://dlepke.github.io/Deanna-Wilson-Ray/) to get familiar with what you'll need and to make sure you start off on the right foot.
 
@@ -25,7 +26,9 @@ Let's open up a new terminal window on your mac and type in the following comman
 
 Note: You may need to enter in a slightly different command depending on your environment. If you have repeated issues with this step, please refer to our [troubleshooting guide](https://dlepke.github.io/Deanna-Wilson-Ray/docs/troubleshooting/).
 
-You'll know you've done this step correctly when the terminal outputs something like `Agent pid 111111` (the number will vary).
+You'll know you've done this step correctly when the terminal outputs something like  
+`Agent pid 111111`  
+(the number will vary).
 
 ## Step 2: Set Up Your SSH Config File
 Now that you've made your SSH Key, you'll need a way to tell your SSH Agent it exists so that it can manage it for you.
@@ -107,7 +110,7 @@ Return to your terminal and enter in the following command:
 `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`  
 
 
-| ![Danger Icon](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |  
+| ![Danger Icon](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used.|  
 | ![Warning Icon](../../assets/images/warning.png) | If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.|
 
 Congratulations! You have now generated and added a new SSH key to your device. You can now add it to your Github Account.
