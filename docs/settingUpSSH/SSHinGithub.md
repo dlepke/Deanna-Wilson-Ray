@@ -47,19 +47,19 @@ If you no longer have this key available, you can enter the following command in
 
 ![An image of the command to copy your SSH key to your clipboard](../../assets/images/copy_key.png)
 
-1. Click the green button in the top right labelled "New SSH Key", which looks like this:
+1) Click the green button in the top right labelled "New SSH Key", which looks like this:
 
 ![An annotated image of the SSH Key Page on Github, highlighting the "New SSH Key" Button](../../assets/images/New_SSH_Key.png)
 
-2. This will take you to a page that looks similar to this:  
+2) This will take you to a page that looks similar to this:  
   
 ![An image of Github's Add SSH Key Page](../../assets/images/Add_key_page.png)  
 
-3. Here you should input the SSH key you generated previously [see here for instructions on how to generate an SSH key](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/)
+3) Here you should input the SSH key you generated previously [see here for instructions on how to generate an SSH key](https://dlepke.github.io/Deanna-Wilson-Ray/docs/settingUpSSH/generateSSHKey/)
 
-4. You can also add a title; this will help identify which device that SSH key is linked to
+4) You can also add a title; this will help identify which device that SSH key is linked to
 
-5. Once you are done, click the green "Add SSH Key" button to add your newly generated key to GitHub
+5) Once you are done, click the green "Add SSH Key" button to add your newly generated key to GitHub 
 
 ![An image of Github's SSH Add Key Page after filling in the necessary SSH Key information](../../assets/images/finally_add_ssh_key.png)
 
