@@ -10,7 +10,7 @@ permalink: /
 {: .fs-9 }
 Greetings, User!
 
-The purpose of this guide is to assist you with setting up an SSH key with your Github account so that you can easily push your work to a code repository on GitHub. By using an SSH key, there is no need for the hassle of tokens that may expire or be forgotten!
+The purpose of this guide is to assist you with setting up an SSH key with your Github account so that you can easily push your work to a code repository on GitHub. An SSH key eliminates the hassle of needing to use tokens that may expire or be forgotten!
 
 ### Table of Contents
 * [Intended Users](#Intended-Users)
@@ -46,9 +46,9 @@ The main sections of the documentation are as follows:
 * [Pushing changes to GitHub](https://dlepke.github.io/Deanna-Wilson-Ray/docs/UsingSSHWithGit/pushgit/)
 
 ## Why Use SSH? {#Why-Use-SSH}
-These days, passwords can be easy to forget, hard to remember, and require constant updates if a data breach occurs. To avoid the issues a compromised password can cause, Github users are able to create what are known as "SSH key pairs" that provide a secure, reliable way to authenticate a user's credentials.
+These days, passwords can be difficult to keep track of, and require constant updates if a data breach occurs. To avoid the issues a compromised password can cause, Github users are able to create what are known as "SSH key pairs" that provide a secure, reliable way to authenticate a user's credentials.
 
-While setting up an SSH key pair initially requires more time than regular username/password combinations, the end result is an SSH key that is more secure than a password and less vulnerable to data leaks and being compromised.
+While setting up an SSH key pair initially requires more time than regular username/password combinations, the end result is an SSH key that is more secure than a password and less vulnerable to being compromised.
 
 This guide aims to make the process simple and easy to follow.
 
