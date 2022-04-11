@@ -5,7 +5,7 @@ parent: Setting Up SSH
 nav_order: 3
 ---
 
-# Add your SSH Key to your local device
+# Add your SSH Key to your Local Device
 
 First, let's do a quick check of what we've done so far.
 
@@ -110,7 +110,7 @@ Return to your terminal and enter in the following command:
 `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`  
 
 
-| ![Danger Icon](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used |  
+| ![Danger Icon](../../assets/images/danger.png) | This command assumes the default location for ssh keys is being used.|  
 | ![Warning Icon](../../assets/images/warning.png) | If you're version of Mac OS predates 12.0, you may need to replace the '--apple-use-keychain' flag with '-K'.|
 
 Congratulations! You have now generated and added a new SSH key to your device. You can now add it to your Github Account.
