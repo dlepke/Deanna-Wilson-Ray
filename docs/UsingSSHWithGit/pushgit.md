@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to Git push with SSH
+title: How to push changes to GitHub
 parent: Using SSH With Git
 nav_order: 2
 ---
