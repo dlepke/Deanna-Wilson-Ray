@@ -32,7 +32,7 @@ On the repository page in GitHub, click on the green code button, highlighted be
 
 ![An annotated image showing the SSH Option for cloning a git repository](../../assets/images/ssh-clone.png)
 
-In this window, click the double windowed copy symbol, outlined in green in the picture below. This will copy the link outlined in red to your clipboard.
+In this window, click the double windowed copy symbol, outlined in blue in the picture below. This will copy the link outlined in red to your clipboard.
 
 ![An annotated image of the button used for copying repository links for cloning git repositories](../../assets/images/ssh-get-clone-link.png)
 
